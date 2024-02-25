@@ -14,7 +14,7 @@ function App() {
     }else if(window.web3){
       provider=window.web3.currentProvider
     }else{
-      console.log("Please install metamusk")
+      console.log("Please install metamask")
     }
     return provider;
   }
